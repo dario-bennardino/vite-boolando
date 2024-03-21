@@ -46,34 +46,30 @@
                 justify-content: center;
                 justify-content: space-between;
                 align-items: center;
-                // .social i {
-                //     color: white;
-                //     padding: 5px;
-                // }
+                
                 .social{
                     i{
                         color: white;
                         padding: 5px;
                     }
                 }
-                .genere>a {
-                    color: white;
-                    text-decoration: none;
-                    font-weight: bold;
-                    padding: 5px;
-
+                .genere{
+                    a{
+                        color: white;
+                        text-decoration: none;
+                        font-weight: bold;
+                        padding: 5px;
+                    }
                 }
-                .logo>img {
-                    width: 150px;
+                .logo{
+                    img{
+                        width: 150px;
+                    }   
                 }
-
-
 
             }  
 
         }
-    
-    
     
     }
 </style>
