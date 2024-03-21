@@ -14,7 +14,7 @@
                     <a href="">Bambino</a>
                 </div>
                 <div class="logo">
-                    <img src="img/boolean-logo.png" alt="">
+                    <img src="/public/assets/img/boolean-logo.png" alt="logo">
                 </div>
                 <div class="social">
                     <i class="fa-regular fa-user"></i>
