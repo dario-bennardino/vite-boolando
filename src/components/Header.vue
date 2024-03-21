@@ -28,8 +28,10 @@
 </template>
 
 <style lang="scss" scoped>
+@use '../assets/scss/partials/variables' as *;
+
   header {
-    background-color: #FF6902;
+    background-color: $primary-color;
     height: 100px;
     display: flex;
     justify-content: center;
