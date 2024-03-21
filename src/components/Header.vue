@@ -46,9 +46,15 @@
                 justify-content: center;
                 justify-content: space-between;
                 align-items: center;
-                .social i {
-                    color: white;
-                    padding: 5px;
+                // .social i {
+                //     color: white;
+                //     padding: 5px;
+                // }
+                .social{
+                    i{
+                        color: white;
+                        padding: 5px;
+                    }
                 }
                 .genere>a {
                     color: white;
