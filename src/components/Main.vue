@@ -10,7 +10,10 @@ import ProductCard from './partials/ProductCard.vue';
 <template>
     <main>
         <div class="container">
-            <ProductCard />
+            <ProductCard 
+            productImage="../assets/img/1.webp"
+            productText=""
+            />
             <ProductCard />
             <ProductCard />
             <ProductCard />
