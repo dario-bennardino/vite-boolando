@@ -3,6 +3,11 @@ import ProductCard from './partials/ProductCard.vue';
     export default {
         components:{
             ProductCard
+        },
+        data(){
+            return{
+                products: db.products
+            };
         }
     }
 </script>
@@ -10,15 +15,8 @@ import ProductCard from './partials/ProductCard.vue';
 <template>
     <main>
         <div class="container">
-            <ProductCard 
-            productImage="../assets/img/1.webp"
-            productText=""
-            />
-            <ProductCard />
-            <ProductCard />
-            <ProductCard />
-            <ProductCard />
-            <ProductCard />
+            <ProductCard v-for="(product, index) in products" :key="index" :product="product"/>
+           
 
 
             <!-- <div class="product">

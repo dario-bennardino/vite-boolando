@@ -1,13 +1,24 @@
 <script>
     export default {
-        
+        props:{
+            id: String,
+            frontImage: String,
+            brand: String,
+            name: String,
+            price: String
+        },
+        methods:{
+            getImagePath: function () {
+            return 'assets/img/' + this.frontImage;
+            }
+        }
     }
 </script>
 
 <template>
     <div class="product">
                 <div class="top-product">
-                    <img src="" alt="">
+                    <img :src="getImagePath()" alt="">
                     <div class="discount md">-50%</div>
                     <div class="sostenibilità">Sostenibilità</div>
                     <div class="preferiti">&hearts;</div>
