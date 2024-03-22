@@ -1,16 +1,26 @@
 <script>
+import ProductCard from './partials/ProductCard.vue';
     export default {
-        
+        components:{
+            ProductCard
+        }
     }
 </script>
 
 <template>
     <main>
         <div class="container">
-            <div class="product">
+            <ProductCard />
+            <ProductCard />
+            <ProductCard />
+            <ProductCard />
+            <ProductCard />
+            <ProductCard />
+
+
+            <!-- <div class="product">
                 <div class="top-product">
                     <img src="/public/assets/img/1.webp" alt="img1">
-                    <!-- <img class="img-galley" src="img/1b.webp" alt=""> -->
                     <div class="discount md">-50%</div>
                     <div class="sostenibilità">Sostenibilità</div>
                     <div class="preferiti">&hearts;</div>
@@ -22,7 +32,6 @@
                         <div class="prezzo-scontato">14.99€</div>
                         <div class="prezzo-pieno">29.99€</div>
                     </div>
-
                 </div>
             </div>
             <div class="product">
@@ -98,7 +107,7 @@
                         <div class="prezzo-scontato">29.99€</div>
                     </div>
                 </div>
-            </div>
+            </div> -->
 
         </div>
     </main>
